@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>📚 Library Management System</h1>
+
+    <!-- User Panel -->
+    <div class="user-panel">
+        <h2>User Panel</h2>
+
+        <div id="book-list">
+            <!-- Books JS diye ekhane show hobe -->
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Admin Panel -->
+    <div class="admin-panel">
+        <h2>Admin Panel</h2>
+
+        <input type="text" id="bookName" placeholder="Book Name">
+
+        <input type="text" id="writerName" placeholder="Writer Name">
+
+        <input type="number" id="quantity" placeholder="Quantity">
+
+        <button id="addBtn">
+            Add Book
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
